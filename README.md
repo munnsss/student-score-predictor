@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+# 🎓 Student Score Prediction (Linear Regression model + GUI)
 
-## Project info
+## 📌 Overview
 
-**URL**: https://lovable.dev/projects/e98b511d-1762-4082-bdc0-ca952f12f6c8
+This project is a **Machine Learning application** that predicts student exam scores based on the number of hours studied.
+It uses a **Linear Regression model** trained on sample data and provides an **interactive GUI** for predictions.
 
-## How can I edit this code?
+👉 The project is deployed using lovable for easy access.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e98b511d-1762-4082-bdc0-ca952f12f6c8) and start prompting.
+* 📊 **Linear Regression Model** (Scikit-Learn)
+* 🎨 **User-Friendly GUI** for input & predictions
+* 📈 **Regression Line Plot** to visualize training data & predictions
+* ☁️ **Deployed with Lovable** for browser-based interaction
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Python 3**
+* **scikit-learn** → Machine Learning model
+* **NumPy** → Data handling
+* **Matplotlib** → Visualization
+* **Tkinter** → GUI interface
+* **Lovable** → Deployment platform
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+student-score-predictor/
+│── main.py               # Main application with GUI + ML model
+│── requirements.txt      # Dependencies
+│── README.md             # Project documentation
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚡ Installation (Run Locally)
 
-**Use GitHub Codespaces**
+1. Clone this repo:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   git clone https://github.com/your-username/student-score-predictor.git
+   cd student-score-predictor
+   ```
 
-## What technologies are used for this project?
+2. Install dependencies:
 
-This project is built with:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Run the app:
 
-## How can I deploy this project?
+   ```bash
+   python main.py
+   ```
 
-Simply open [Lovable](https://lovable.dev/projects/e98b511d-1762-4082-bdc0-ca952f12f6c8) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🌍 Live Demo
 
-Yes, you can!
+🔗 Try the deployed app here: **[Live on Lovable][(https://lovable.dev/projects/e98b511d-1762-4082-bdc0-ca952f12f6c8)]**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📸 Screenshots
+
+<img width="1910" height="860" alt="image" src="https://github.com/user-attachments/assets/3d240ae4-3861-47d4-a66d-a63001390fb0" />
+<img width="1882" height="850" alt="image" src="https://github.com/user-attachments/assets/f3039439-5750-442f-b149-8eab1fed4c81" />
+
+
+## 📈 Example
+
+* Input: **Hours Studied = 6.5**
+* Output: **Predicted Score ≈ 78.4 marks**
+
+
+
